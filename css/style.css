@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+.logo__img {
+	width: 180px;
+	height: 180px;
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	margin-bottom: -40px;
+}
+
+.logo__subtitle {
+	color: #B3B3B3;
+
+}
+
+main {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	display: flex;
+}
+
+.product-container {
+	display: flex;
+	padding: 40px;
+	flex-wrap: wrap;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	width: 250px;
+	height: 370px;
+	padding: 15px;
+	box-shadow: 0px 0px 6px 3px rgb(158, 158, 158);
+	margin: 20px 40px;
+}
+
+.product-img {
+	width: 150px;
+	height: 170px;
+	margin: 20px auto;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.p1 {
+	background-image: url(../img/p1.png);
+
+}
+
+.p2 {
+	background-image: url(../img/p2.png);
+
+}
+
+.p3 {
+	background-image: url(../img/p3.webp);
+
+}
+
+.p4 {
+	background-image: url(../img/p4.png);
+
+}
+
+.p5 {
+	background-image: url(../img/p5.png);
+
+}
+
+.p6 {
+	background-image: url(../img/p6.png);
+
+}
+
+.product-title {
+	margin: 10px 0px;
+	flex-grow: 1;
+}
+
+.product-count {
+	display: flex;
+	align-items: baseline;
+}
+
+.product-count__counter {
+	display: flex;
+	border: solid rgb(87, 87, 87) 0px;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.counter-btn[data-counter-count] {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.counter-btn[data-counter-btn] {
+	padding: 0px 5px;
+	background-color: rgb(244, 138, 76);
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.product-count__price {
+	font-size: 22px;
+	font-weight: bold;
+	flex-grow: 1;
+	text-align: right;
+	padding-right: 15px;
+	color: rgb(244, 138, 76);
+}
+
+.product-btn {
+	width: 100%;
+
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px 0px;
+	margin-top: 20px;
+	background-color: rgb(140, 223, 133);
+	color: white;
+}
+
+.cart-container {
+	width: 500px;
+	height: 75vh;
+}
+
+.cart-container__fixed {
+	width: 500px;
+	height: 75vh;
+	background-color: rgba(80, 80, 80, 0.2);
+	position: fixed;
+	padding: 30px;
+}
+
+.cart-title {
+	font-size: 26px;
+	color: rgb(41, 41, 41)
+}
