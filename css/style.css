@@ -24,15 +24,17 @@ header {
 }
 
 main {
+	display: flex;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
-	display: flex;
+	width: 100%;
 }
 
 .product-container {
 	display: flex;
 	padding: 40px;
 	flex-wrap: wrap;
+	flex-grow: 1;
 }
 
 .product {
@@ -140,13 +142,13 @@ main {
 }
 
 .cart-container {
-	width: 500px;
-	height: 75vh;
+	min-width: 350px;
+	flex-grow: 0;
 }
 
 .cart-container__fixed {
-	width: 500px;
-	height: 75vh;
+	min-height: 700px;
+	width: 100%;
 	background-color: rgba(80, 80, 80, 0.2);
 	position: fixed;
 	padding: 30px;
